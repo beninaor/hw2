@@ -1,0 +1,45 @@
+body{
+    font-family: Arial;
+}
+.links{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+.main{
+    display: flex;
+}
+.left_side{
+    width: 100%;
+    margin-right: 30px;
+}
+.post {
+    display: flex;
+    margin: 10px;
+    border: solid black 2px;
+    height: 200px;
+    justify-content: space-between;
+
+}
+.right_side{
+    width: 30% ;
+    margin-left: 20px;
+}
+.my_text {
+    align-items: flex-start;
+}
+.published{
+    align-items: flex-end;
+}
+.block_text{
+    margin: 5px 250px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.my_pic{
+    margin: 10px
+}
+
+
+
